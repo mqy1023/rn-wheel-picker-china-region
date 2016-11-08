@@ -57,6 +57,6 @@ import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
 
 ## Show
 
-![rn-wheel-picker-china-region1](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region_picker1.png)
+![rn-wheel-picker-china-region1](./screens/region_picker1.png)
 
-![rn-wheel-picker-china-region2](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region_picker2.png)
+![rn-wheel-picker-china-region2](./screens/region_picker2.png)
