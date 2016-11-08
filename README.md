@@ -1,3 +1,19 @@
+# rn-wheel-picker-china-region
+
+a modal picker(wheel) of china province & city & region.
+
+## propTypes
+```
+isVisible: PropTypes.bool,
+selectedProvince: PropTypes.string,
+selectedCity: PropTypes.string,
+selectedArea: PropTypes.string,
+navBtnColor: PropTypes.string,
+animationType: PropTypes.string,
+transparent: PropTypes.bool,
+onSubmit: PropTypes.func,
+onCancel: PropTypes.func,
+```
 
 ## Install
 npm install rn-wheel-picker-china-region --save
@@ -41,6 +57,6 @@ import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
 
 ## Show
 
-![rn-wheel-picker-china-region1](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region1.png)
+![rn-wheel-picker-china-region1](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region_picker1.png)
 
-![rn-wheel-picker-china-region2](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region2.png)
+![rn-wheel-picker-china-region2](https://raw.githubusercontent.com/mqy1023/rn-wheel-picker-china-region/master/screens/region_picker2.png)
