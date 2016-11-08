@@ -1,0 +1,27 @@
+{
+  "name": "rn-wheel-picker-china-region",
+  "version": "1.0.0",
+  "description": "a modal picker(wheel) of china province & city & region ",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mqy1023/rn-wheel-picker-china-region.git"
+  },
+  "keywords": [
+    "react-native",
+    "modal",
+    "picker",
+    "wheel",
+    "china",
+    "region"
+  ],
+  "author": "mqy1023",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mqy1023/rn-wheel-picker-china-region/issues"
+  },
+  "homepage": "https://github.com/mqy1023/rn-wheel-picker-china-region#readme"
+}
