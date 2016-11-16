@@ -1,6 +1,6 @@
 {
   "name": "rn-wheel-picker-china-region",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a modal picker(wheel) of china province & city & region ",
   "main": "./lib/index.js",
   "scripts": {

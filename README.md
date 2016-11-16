@@ -1,5 +1,7 @@
 # rn-wheel-picker-china-region
 
+IOS & 安卓都兼容的中国地区选择器.
+
 a modal picker(wheel) of china province & city & region.
 
 ## propTypes
@@ -13,6 +15,7 @@ animationType: PropTypes.string,
 transparent: PropTypes.bool,
 onSubmit: PropTypes.func,
 onCancel: PropTypes.func,
+androidPickerHeight: PropTypes.number   // 安卓手机下可以由该属性来设置picker区域的高度
 ```
 
 ## Install
@@ -22,7 +25,7 @@ npm install rn-wheel-picker-china-region --save
 ```javascript
 import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
 
-// 用法一
+// ios用法一
 <ChinaRegionWheelPicker
   onSubmit={(params) => this.setState({ region1: `${params.province},${params.city},${params.area}` })}
   onCancel={() => console.log('cancel')}
@@ -34,7 +37,17 @@ import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
   />
 </ChinaRegionWheelPicker>
 
-// 用法二(参考Example目录index.ios.js)
+// android用法一
+<ChinaRegionWheelPicker
+  onSubmit={(params) => this.setState({ region1: `${params.province},${params.city},${params.area}` })}
+  onCancel={() => console.log('cancel')}
+>
+  <Text
+    style={{ backgroundColor: '#FFF', width: 200, paddingVertical: 20, textAlign: 'center', color: 'black' }}
+  >{this.state.region1 || '点击去选择地区'}</Text>
+</ChinaRegionWheelPicker>
+
+// 用法二(参考Example目录index.ios.js/android.ios.js)
 <ChinaRegionWheelPicker
   isVisible={this.state.isPickerVisible}
   navBtnColor={'red'}
@@ -45,6 +58,7 @@ import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
   animationType={'fade'}
   onSubmit={this._onPressSubmit.bind(this)} // 点击确认_onPressSubmit
   onCancel={this._onPressCancel.bind(this)} // 点击取消_onPressCancel
+  androidPickerHeight={100}   // 安卓手机下可以设置picker区域的高度
 />
 
 <TouchableOpacity
@@ -60,3 +74,7 @@ import ChinaRegionWheelPicker from 'rn-wheel-picker-china-region';
 ![rn-wheel-picker-china-region1](./screens/regionpicker1.png)
 
 ![rn-wheel-picker-china-region2](./screens/regionpicker2.png)
+
+![rn-wheel-picker-china-region3](./screens/picker3.png)
+
+![rn-wheel-picker-china-region4](./screens/picker4.png)
