@@ -7,6 +7,7 @@ a modal picker(wheel) of china province & city & region.
 ## propTypes
 ```
 isVisible: PropTypes.bool,
+isShowArea: PropTypes.bool,
 selectedProvince: PropTypes.string,
 selectedCity: PropTypes.string,
 selectedArea: PropTypes.string,
