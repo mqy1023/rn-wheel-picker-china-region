@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/mqy1023/rn-wheel-picker-china-region/issues"
   },
-  "homepage": "https://github.com/mqy1023/rn-wheel-picker-china-region#readme"
+  "homepage": "https://github.com/mqy1023/rn-wheel-picker-china-region#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
